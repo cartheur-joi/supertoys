@@ -1,6 +1,6 @@
 ## supertoys
 
-Supertoys and agents.
+Supertoys as bears - and perhaps agents.
 
 ### Background
 
