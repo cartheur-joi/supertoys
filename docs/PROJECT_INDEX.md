@@ -8,6 +8,7 @@ Quick map of important files by purpose.
 - [README.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/README.md)
 - [QUICKSTART_MAKE.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/QUICKSTART_MAKE.md)
 - [OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
+- [MASTERFILE_WORKFLOW.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/MASTERFILE_WORKFLOW.md)
 
 ## Story and Script
 
@@ -39,6 +40,7 @@ Quick map of important files by purpose.
 - [scripts/encode_review.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/encode_review.sh)
 - [scripts/encode_final.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/encode_final.sh)
 - [scripts/audio_check.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/audio_check.sh)
+- [scripts/watch_master_sync.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/watch_master_sync.sh)
 
 ## Working Output Directory
 

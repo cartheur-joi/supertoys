@@ -38,6 +38,13 @@ make sync-master
   - `planning/supertoys-voiceover-shotlist-2min.md`
   - synced canon block in `planning/supertoys-storyboard-panel-checklist.md`
 
+- For automatic sync on each save (and automatic diff output):
+
+```bash
+sudo apt install -y inotify-tools
+make watch-master
+```
+
 ## 3) First working session checklist
 
 1. Generate/select stills for key panels: `P07, P17, P25, P32`

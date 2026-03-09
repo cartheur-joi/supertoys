@@ -38,6 +38,12 @@ make sync-master
 make sync-master
 ```
 
+- For automatic behavior on every save (diff + make):
+
+```bash
+make watch-master
+```
+
 ### Background
 
 "A summer for supertoys" is an anonymous science fiction short story.

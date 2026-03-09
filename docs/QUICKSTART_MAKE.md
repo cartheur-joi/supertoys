@@ -43,6 +43,13 @@ Run:
 make sync-master
 ```
 
+Optional auto mode (on every save of master file):
+
+```bash
+sudo apt install -y inotify-tools
+make watch-master
+```
+
 ## 5) Create a review encode
 
 Put your master file at:
