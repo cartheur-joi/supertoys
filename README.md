@@ -56,3 +56,9 @@ make watch-master
 ### Background
 
 "A summer for supertoys" is an anonymous science fiction short story.
+
+### Getting to GO! prompt
+
+`Use story/workboard.md as master; run sync/watch; bootstrap ComfyUI; generate P17 still via make comfy-p17; update lookdev tracker; report blockers.`
+
+
