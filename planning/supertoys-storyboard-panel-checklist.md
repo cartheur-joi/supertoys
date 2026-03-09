@@ -3,7 +3,7 @@
 
 <!-- MASTER_SYNC_START -->
 > Canon synced from `story/workboard.md`.
-> Last synced: 2026-03-09 19:20
+> Last synced: 2026-03-09 19:24
 
 **Master Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
 

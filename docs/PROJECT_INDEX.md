@@ -15,7 +15,10 @@ Quick map of important files by purpose.
 
 - [A summer for supertoys.docx](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/source/A summer for supertoys.docx)
 - [workboard.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/workboard.md)
-- [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
+
+## Reporting (Generated)
+
+- [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/reporting/supertoys-animated-screenplay.md)
 
 ## Editorial
 

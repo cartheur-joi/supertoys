@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "story" / "workboard.md"
-SCREENPLAY = ROOT / "story" / "supertoys-animated-screenplay.md"
+SCREENPLAY = ROOT / "reporting" / "supertoys-animated-screenplay.md"
 VOICE_SCRIPT = ROOT / "planning" / "supertoys-voice-actor-script.md"
 SHOTLIST_3MIN = ROOT / "planning" / "supertoys-voiceover-shotlist-3min.md"
 SHOTLIST_2MIN = ROOT / "planning" / "supertoys-voiceover-shotlist-2min.md"

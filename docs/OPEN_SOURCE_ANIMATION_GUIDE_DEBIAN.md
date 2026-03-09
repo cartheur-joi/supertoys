@@ -82,7 +82,7 @@ Notes:
 
 From this repo:
 
-1. [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
+1. [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/reporting/supertoys-animated-screenplay.md)
 2. [supertoys-voiceover-shotlist-3min.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/planning/supertoys-voiceover-shotlist-3min.md)
 3. [supertoys-voiceover-shotlist-2min.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/planning/supertoys-voiceover-shotlist-2min.md)
 4. [supertoys-voice-actor-script.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/planning/supertoys-voice-actor-script.md)

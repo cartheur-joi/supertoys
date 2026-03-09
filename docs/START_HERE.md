@@ -18,7 +18,7 @@ make status
 
 1. [README.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/README.md)
 2. [OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
-3. [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
+3. [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/reporting/supertoys-animated-screenplay.md)
 4. [animatic/README.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/animatic/README.md)
 5. [animatic/supertoys-edit-decision-list.csv](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/animatic/supertoys-edit-decision-list.csv)
 
@@ -32,7 +32,7 @@ make sync-master
 ```
 
 - This regenerates:
-  - `story/supertoys-animated-screenplay.md`
+  - `reporting/supertoys-animated-screenplay.md`
   - `planning/supertoys-voice-actor-script.md`
   - `planning/supertoys-voiceover-shotlist-3min.md`
   - `planning/supertoys-voiceover-shotlist-2min.md`

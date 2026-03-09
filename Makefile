@@ -83,7 +83,7 @@ status:
 	@echo "Core docs:"
 	@for f in \
 		docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md \
-		story/supertoys-animated-screenplay.md \
+		reporting/supertoys-animated-screenplay.md \
 		planning/supertoys-voice-actor-script.md \
 		animatic/supertoys-edit-decision-list.csv; do \
 		if [[ -f "$$f" ]]; then echo "  found $$f"; else echo "  missing $$f"; fi; \
@@ -94,6 +94,7 @@ package:
 	@zip -r "$(EXPORTS_DIR)/$(PROJECT)_docs_animatic_$(DATE).zip" \
 		docs/ \
 		story/ \
+		reporting/ \
 		planning/ \
 		animatic
 	@echo "Created $(EXPORTS_DIR)/$(PROJECT)_docs_animatic_$(DATE).zip"

@@ -15,7 +15,7 @@ make sync-master
 ```
 
 This regenerates:
-- `story/supertoys-animated-screenplay.md`
+- `reporting/supertoys-animated-screenplay.md`
 - `planning/supertoys-voice-actor-script.md`
 - `planning/supertoys-voiceover-shotlist-3min.md`
 - `planning/supertoys-voiceover-shotlist-2min.md`
@@ -50,6 +50,6 @@ Stop watcher with `Ctrl+C`.
 4. If good, commit changes:
 
 ```bash
-git add story/workboard.md story/supertoys-animated-screenplay.md planning/
+git add story/workboard.md reporting/supertoys-animated-screenplay.md planning/
 git commit -m "Update story and synced planning docs"
 ```

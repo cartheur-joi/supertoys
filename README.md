@@ -27,7 +27,7 @@ make sync-master
 
 - Source story doc: [A summer for supertoys.docx](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/source/A summer for supertoys.docx)
 - Workboard (master): [workboard.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/workboard.md)
-- Screenplay draft: [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
+- Screenplay draft (generated): [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/reporting/supertoys-animated-screenplay.md)
 
 ### Master Sync
 

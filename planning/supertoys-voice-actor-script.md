@@ -2,7 +2,7 @@
 ## Voice Actor Script (Narrator)
 
 > Auto-generated from `story/workboard.md`.
-> Last synced: 2026-03-09 19:20
+> Last synced: 2026-03-09 19:24
 
 **Read style:** Warm, restrained, intimate  
 **Pacing target:** ~135-145 WPM  
