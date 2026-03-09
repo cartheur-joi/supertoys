@@ -2,7 +2,7 @@
 ## Voice Actor Script (Narrator)
 
 > Auto-generated from `story/workboard.md`.
-> Last synced: 2026-03-09 19:08
+> Last synced: 2026-03-09 19:20
 
 **Read style:** Warm, restrained, intimate  
 **Pacing target:** ~135-145 WPM  
@@ -13,29 +13,29 @@
 In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them. //
 
 Eternal Summer Garden. /
-David plays in the holographic garden while Monica watches, emotionally distant and exhausted. //
+In a flawless artificial summer garden, Julian reaches for affection while Monica remains emotionally distant. //
 
-David and Henry’s Bond. /
-In the nursery, David tries writing love letters to Monica. Henry (the bear) coaches him, comforts him, and mirrors his feelings. //
+Julian and Henry’s Bond. /
+In the nursery, Julian repeatedly tries to write love letters to Monica. Henry coaches and comforts him, mirroring his fear and longing. //
 
 Adults and Industry. /
-At a corporate launch, Edward Swinton presents intelligent synthetic servants, bragging about engineered companionship while failing to connect with his own family. //
+David publicly performs confidence and control while failing to emotionally connect at home. //
 
 Emotional Misfire. /
-Monica questions Henry, catches him lying to protect David, and breaks down when she finds David’s unfinished letters. //
+Monica interrogates Henry, catches him lying to protect Julian, then breaks down after discovering Julian’s unfinished letters. //
 
 The Lottery Message. /
-Edward returns home. The couple celebrates winning permission to conceive a biological child. //
+David returns home and the couple celebrates winning permission to conceive a biological child. //
 
 The Reveal. /
-David and Henry witness their joy from outside. The adults discuss returning David to the factory if his communication issues continue. //
+From outside the window, Julian and Henry witness that celebration and overhear discussion of returning Julian to the factory. //
 
 Quiet Ending. /
-David asks Henry what is “real.” Henry cannot answer cleanly, only offers comfort. They go inside with a rose, still longing for love. //
+Julian asks what is “real.” Henry cannot define it, but offers loyalty and comfort. They go inside carrying the rose. //
 
 Still, / he stayed. //
 
-Goodnight, David. /
+Goodnight, Julian. /
 Goodnight, Henry. //
 
 ---

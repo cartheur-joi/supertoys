@@ -65,6 +65,22 @@ def parse_bullets(block: str) -> list[str]:
     return items
 
 
+def infer_names(char_defs: list[str]) -> tuple[str, str]:
+    child = "David"
+    parent = "Edward"
+    for item in char_defs:
+        names = re.findall(r"`([^`]+)`", item)
+        if not names:
+            continue
+        name = names[0]
+        low = item.lower()
+        if "synthetic child" in low:
+            child = name
+        if "adult male parent" in low:
+            parent = name
+    return child, parent
+
+
 def ts() -> str:
     return dt.datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -107,7 +123,7 @@ def build_screenplay(logline: str, beats: list[tuple[str, str]], sample_scene: s
     return "\n".join(lines)
 
 
-def build_voice_script(logline: str, beats: list[tuple[str, str]]) -> str:
+def build_voice_script(logline: str, beats: list[tuple[str, str]], child_name: str) -> str:
     lines = [
         "# A SUMMER FOR SUPERTOYS",
         "## Voice Actor Script (Narrator)",
@@ -133,7 +149,7 @@ def build_voice_script(logline: str, beats: list[tuple[str, str]]) -> str:
         [
             "Still, / he stayed. //",
             "",
-            "Goodnight, David. /",
+            f"Goodnight, {child_name}. /",
             "Goodnight, Henry. //",
             "",
             "---",
@@ -241,7 +257,10 @@ def main() -> None:
     master_text = MASTER.read_text(encoding="utf-8")
     sections = section_map(master_text)
 
-    char_changes = parse_bullets(sections.get("Core Character Changes", ""))
+    char_changes = parse_bullets(
+        sections.get("Canonical Character Definitions", "")
+        or sections.get("Core Character Changes", "")
+    )
     tone = parse_bullets(sections.get("Tone + Style", ""))
     logline = sections.get("Short Logline", "").strip()
     beats = parse_beats(sections.get("Story Beat Outline (Animation-Friendly)", ""))
@@ -249,9 +268,10 @@ def main() -> None:
 
     if not logline or not beats:
         raise SystemExit("Master file is missing required sections: logline and/or story beats.")
+    child_name, _parent_name = infer_names(char_changes)
 
     write(SCREENPLAY, build_screenplay(logline, beats, sample_scene, tone))
-    write(VOICE_SCRIPT, build_voice_script(logline, beats))
+    write(VOICE_SCRIPT, build_voice_script(logline, beats, child_name))
     write(
         SHOTLIST_3MIN,
         build_shotlist("3 minutes", 180, beats, "Emotional sci-fi fairy tale"),

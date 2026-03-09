@@ -3,13 +3,17 @@
 
 <!-- MASTER_SYNC_START -->
 > Canon synced from `story/workboard.md`.
-> Last synced: 2026-03-09 19:08
+> Last synced: 2026-03-09 19:20
 
 **Master Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
 
 **Master Character Rules:**
-- `Henry` is now the teddy bear (formerly `Teddy`).
-- The adult formerly named `Henry Swinton` is now `Edward Swinton`.
+- `Henry` is the teddy bear.
+- `David` is the adult male parent.
+- `Monica` is the adult female parent, emotionally distant but internally conflicted.
+- `Julian` is a synthetic child who experiences authentic emotional need.
+- The emotional center of the film is the `Julian <-> Henry` bond.
+- Supporting/background roles should only remain if they directly strengthen this core bond.
 <!-- MASTER_SYNC_END -->
 **Use with:** 3-minute cut  
 **Panel goal:** 36 panels (avg 5s)  

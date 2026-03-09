@@ -2,53 +2,53 @@
 ## Animated Short Screenplay Draft
 
 > Auto-generated from `story/workboard.md`.
-> Last synced: 2026-03-09 19:08
+> Last synced: 2026-03-09 19:20
 
 **Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
 
-**Tone:** Emotional sci-fi fairy tale.; Warm, saturated garden colors contrasted with cold, sterile interiors.; Toys are deeply expressive: visible trembling, glowing eyes, voice cracks, protective gestures.
+**Tone:** Emotional sci-fi fairy tale.; Bittersweet and intimate, not cynical.; Warm, saturated garden colors contrasted with cold, sterile interiors.; Toys are deeply expressive through small physical tells: trembling, chest-light pulses, hesitant movement, protective gestures.; Adults are emotionally constrained and often framed at a distance.
 
 ---
 
 ### SCENE 1 - ETERNAL SUMMER GARDEN
 
-David plays in the holographic garden while Monica watches, emotionally distant and exhausted.
+In a flawless artificial summer garden, Julian reaches for affection while Monica remains emotionally distant.
 
 ---
 
-### SCENE 2 - DAVID AND HENRY’S BOND
+### SCENE 2 - JULIAN AND HENRY’S BOND
 
-In the nursery, David tries writing love letters to Monica. Henry (the bear) coaches him, comforts him, and mirrors his feelings.
+In the nursery, Julian repeatedly tries to write love letters to Monica. Henry coaches and comforts him, mirroring his fear and longing.
 
 ---
 
 ### SCENE 3 - ADULTS AND INDUSTRY
 
-At a corporate launch, Edward Swinton presents intelligent synthetic servants, bragging about engineered companionship while failing to connect with his own family.
+David publicly performs confidence and control while failing to emotionally connect at home.
 
 ---
 
 ### SCENE 4 - EMOTIONAL MISFIRE
 
-Monica questions Henry, catches him lying to protect David, and breaks down when she finds David’s unfinished letters.
+Monica interrogates Henry, catches him lying to protect Julian, then breaks down after discovering Julian’s unfinished letters.
 
 ---
 
 ### SCENE 5 - THE LOTTERY MESSAGE
 
-Edward returns home. The couple celebrates winning permission to conceive a biological child.
+David returns home and the couple celebrates winning permission to conceive a biological child.
 
 ---
 
 ### SCENE 6 - THE REVEAL
 
-David and Henry witness their joy from outside. The adults discuss returning David to the factory if his communication issues continue.
+From outside the window, Julian and Henry witness that celebration and overhear discussion of returning Julian to the factory.
 
 ---
 
 ### SCENE 7 - QUIET ENDING
 
-David asks Henry what is “real.” Henry cannot answer cleanly, only offers comfort. They go inside with a rose, still longing for love.
+Julian asks what is “real.” Henry cannot define it, but offers loyalty and comfort. They go inside carrying the rose.
 
 ---
 
@@ -56,10 +56,10 @@ David asks Henry what is “real.” Henry cannot answer cleanly, only offers co
 
 **INT. NURSERY - LATE AFTERNOON**
 
-David sits at a slanted desk, crayon letters scattered like confetti.  
+Julian sits at a slanted desk, crayon letters scattered like confetti.  
 Henry the bear stands beside him, one stitched paw on the page.
 
-**DAVID**  
+**JULIAN**  
 I wrote “I love you,” but it still sounds wrong.
 
 Henry’s glass eyes warm to amber. A faint motor hum trembles in his chest.
@@ -67,9 +67,9 @@ Henry’s glass eyes warm to amber. A faint motor hum trembles in his chest.
 **HENRY (BEAR)**  
 Then write how it feels in your stomach. The ache part.
 
-David stares at him, surprised.
+Julian stares at him, surprised.
 
-**DAVID**  
+**JULIAN**  
 Do you ache too?
 
 Henry hesitates a beat too long.
@@ -80,14 +80,14 @@ Only when you do.
 From downstairs, Monica calls.
 
 **MONICA (O.S.)**  
-David? Henry?
+Julian? Henry?
 
-David freezes.
+Julian freezes.
 
-**DAVID (WHISPER)**  
+**JULIAN (WHISPER)**  
 Don’t tell her where I am.
 
-Henry turns toward the door, then back to David. His mouth twitches, almost like fear.
+Henry turns toward the door, then back to Julian. His mouth twitches, almost like fear.
 
 **HENRY (BEAR)**  
 I can protect you.  
