@@ -1,0 +1,37 @@
+panel,time_in,time_out,duration_sec,video_note,audio_note
+P01,00:00:00,00:00:04,4,Wide aerial garden reveal,Ambience pre-roll then VO start
+P02,00:00:04,00:00:07,3,Macro synthetic dew rose,No hard SFX accent
+P03,00:00:07,00:00:11,4,David runs with rose,Garden ambience + soft footsteps
+P04,00:00:11,00:00:15,4,Monica isolated wide,VO phrase: Nothing healed
+P05,00:00:15,00:00:20,5,Overhead desk letters,Crayon foley enters
+P06,00:00:20,00:00:25,5,OTS Dear Mummy line,Paper rustle close
+P07,00:00:25,00:00:30,5,Henry paw on letter,Subtle servo whir
+P08,00:00:30,00:00:35,5,David anxious glance,Room tone narrow
+P09,00:00:35,00:00:41,6,Henry chest light irregular,Pulse sync with low sub
+P10,00:00:41,00:00:46,5,Henry eyes reflection,Hold quiet intimacy
+P11,00:00:46,00:00:50,4,Whisper two-shot,Very low foley
+P12,00:00:50,00:00:55,5,Paw grips finger,Tactile plush SFX
+P13,00:00:55,00:01:01,6,Wide SYNTHANK hall,Applause bed start
+P14,00:01:01,00:01:07,6,Edward at podium,Camera flashes
+P15,00:01:07,00:01:11,4,Crowd applause closeup,Applause up 2 dB
+P16,00:01:11,00:01:15,4,Serving-man applauds,Uncanny timing beat
+P17,00:01:15,00:01:22,7,Monica interrogates Henry,Room tone drop
+P18,00:01:22,00:01:27,5,Henry admits protection,VO focus
+P19,00:01:27,00:01:33,6,Drawer reveal letters,Drawer slide accent
+P20,00:01:33,00:01:40,7,Monica breakdown high angle,Paper cascade accent
+P21,00:01:40,00:01:46,6,Edward transit arrival,Door hiss
+P22,00:01:46,00:01:51,5,Couple embrace foyer,Music swell
+P23,00:01:51,00:01:58,7,Ministry notice insert,Paper flutter accent
+P24,00:01:58,00:02:05,7,Celebration spin,Peak emotional music
+P25,00:02:05,00:02:12,7,Window inside-outside split,Muffled indoor voices
+P26,00:02:12,00:02:20,8,Parents serious discussion,Low-pass dialogue
+P27,00:02:20,00:02:28,8,Rose stem bends in hand,Petal crush accent
+P28,00:02:28,00:02:35,7,Henry shields David,Music thins
+P29,00:02:35,00:02:42,7,Dusk two-shot seated,Dusk wind ambience
+P30,00:02:42,00:02:48,6,Profile question closeup,Micro-pause after line
+P31,00:02:48,00:02:55,7,Hand clasp chest light steady,Comfort motif cue
+P32,00:02:55,00:03:00,5,Night nursery final tableau,Final VO line
+P33,00:03:00,00:03:01,1,Hold still frame,Music tail hold
+P34,00:03:01,00:03:02,1,Fade to black,Near-silence
+P35,00:03:02,00:03:04,2,End card text,Low room tone
+P36,00:03:04,00:03:06,2,Credits black,Audio tail out
