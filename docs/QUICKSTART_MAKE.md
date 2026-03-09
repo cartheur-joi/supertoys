@@ -32,7 +32,18 @@ make check-tools
 make status
 ```
 
-## 4) Create a review encode
+## 4) Sync all derivative writing docs from the master story file
+
+Master file:
+- `story/animated-story-adaptation.md`
+
+Run:
+
+```bash
+make sync-master
+```
+
+## 5) Create a review encode
 
 Put your master file at:
 - `production/exports/supertoys_master.mov`
@@ -46,7 +57,7 @@ make review
 Output:
 - `production/exports/supertoys_review.mp4`
 
-## 5) Create final delivery encode
+## 6) Create final delivery encode
 
 ```bash
 make final
@@ -55,7 +66,7 @@ make final
 Output:
 - `production/exports/supertoys_final.mp4`
 
-## 6) Check loudness for your mix WAV
+## 7) Check loudness for your mix WAV
 
 Put your mix at:
 - `production/audio/mix/supertoys_mix_v01.wav`
@@ -66,7 +77,7 @@ Then run:
 make audio-check
 ```
 
-## 7) Package docs + animatic specs
+## 8) Package docs + animatic specs
 
 ```bash
 make package

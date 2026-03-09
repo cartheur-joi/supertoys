@@ -22,6 +22,22 @@ make status
 4. [animatic/README.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/animatic/README.md)
 5. [animatic/supertoys-edit-decision-list.csv](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/animatic/supertoys-edit-decision-list.csv)
 
+## Master Story Rule
+
+- The canonical source is `story/animated-story-adaptation.md`.
+- After any story/dialogue edit there, run:
+
+```bash
+make sync-master
+```
+
+- This regenerates:
+  - `story/supertoys-animated-screenplay.md`
+  - `planning/supertoys-voice-actor-script.md`
+  - `planning/supertoys-voiceover-shotlist-3min.md`
+  - `planning/supertoys-voiceover-shotlist-2min.md`
+  - synced canon block in `planning/supertoys-storyboard-panel-checklist.md`
+
 ## 3) First working session checklist
 
 1. Generate/select stills for key panels: `P07, P17, P25, P32`
@@ -37,6 +53,7 @@ make review MASTER_MOV=production/exports/supertoys_master.mov
 
 ```bash
 make status
+make sync-master
 make review MASTER_MOV=production/exports/supertoys_master.mov
 make final MASTER_MOV=production/exports/supertoys_master.mov
 make audio-check MIX_WAV=production/audio/mix/supertoys_mix_v01.wav

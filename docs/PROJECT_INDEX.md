@@ -33,6 +33,7 @@ Quick map of important files by purpose.
 ## Automation
 
 - [Makefile](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/Makefile)
+- [scripts/sync_from_master.py](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/sync_from_master.py)
 - [scripts/init_production.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/init_production.sh)
 - [scripts/check_tools.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/check_tools.sh)
 - [scripts/encode_review.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/encode_review.sh)

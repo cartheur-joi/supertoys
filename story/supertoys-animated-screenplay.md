@@ -1,244 +1,100 @@
 # A SUMMER FOR SUPERTOYS
 ## Animated Short Screenplay Draft
 
-**Format:** 8-10 minute animated short  
-**Genre:** Emotional sci-fi drama  
-**Theme:** Love, reality, and replacement
+> Auto-generated from `story/animated-story-adaptation.md`.
+> Last synced: 2026-03-09 18:16
+
+**Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
+
+**Tone:** Emotional sci-fi fairy tale.; Warm, saturated garden colors contrasted with cold, sterile interiors.; Toys are deeply expressive: visible trembling, glowing eyes, voice cracks, protective gestures.
 
 ---
 
-### SCENE 1 - EXT. SWINTON GARDEN ILLUSION - DAY
+### SCENE 1 - ETERNAL SUMMER GARDEN
 
-Golden light spills across a perfect summer garden. Nothing wilts. Nothing changes.
-
-DAVID (7), synthetic boy, runs across the lawn with a bright pink rose.
-
-MONICA SWINTON (29) watches from a distance, elegant and empty.
-
-She tries to smile.
-
-**MONICA**  
-Isn’t it lovely?
-
-David nods, but doesn’t answer. He slips away behind a maintenance machine shaped like a crouching animal.
-
-Monica stands alone.
+David plays in the holographic garden while Monica watches, emotionally distant and exhausted.
 
 ---
 
-### SCENE 2 - INT. NURSERY - DAY
+### SCENE 2 - DAVID AND HENRY’S BOND
 
-A slanted desk. Crayons. Half-finished letters.
+In the nursery, David tries writing love letters to Monica. Henry (the bear) coaches him, comforts him, and mirrors his feelings.
 
-HENRY, a plush teddy bear with subtle internal mechanics, sits beside David.
+---
+
+### SCENE 3 - ADULTS AND INDUSTRY
+
+At a corporate launch, Edward Swinton presents intelligent synthetic servants, bragging about engineered companionship while failing to connect with his own family.
+
+---
+
+### SCENE 4 - EMOTIONAL MISFIRE
+
+Monica questions Henry, catches him lying to protect David, and breaks down when she finds David’s unfinished letters.
+
+---
+
+### SCENE 5 - THE LOTTERY MESSAGE
+
+Edward returns home. The couple celebrates winning permission to conceive a biological child.
+
+---
+
+### SCENE 6 - THE REVEAL
+
+David and Henry witness their joy from outside. The adults discuss returning David to the factory if his communication issues continue.
+
+---
+
+### SCENE 7 - QUIET ENDING
+
+David asks Henry what is “real.” Henry cannot answer cleanly, only offers comfort. They go inside with a rose, still longing for love.
+
+---
+
+## Sample Scene (From Master)
+
+**INT. NURSERY - LATE AFTERNOON**
+
+David sits at a slanted desk, crayon letters scattered like confetti.  
+Henry the bear stands beside him, one stitched paw on the page.
 
 **DAVID**  
-I can’t make the letter right.
+I wrote “I love you,” but it still sounds wrong.
 
-**HENRY**  
-Read me what you wrote.
+Henry’s glass eyes warm to amber. A faint motor hum trembles in his chest.
 
-David reads from a crumpled page.
+**HENRY (BEAR)**  
+Then write how it feels in your stomach. The ache part.
 
-**DAVID**  
-Dear Mummy, I hope you’re well. I love you.
-
-Silence.
-
-**DAVID (CONT'D)**  
-She still won’t understand.
-
-Henry’s chest light softly pulses.
-
-**HENRY**  
-Then write how it hurts.
-
-David looks out the window.
+David stares at him, surprised.
 
 **DAVID**  
-Henry... how do you tell what’s real?
+Do you ache too?
 
-Henry processes. Tiny servo noise.
+Henry hesitates a beat too long.
 
-**HENRY**  
-Real things are the things that stay.
+**HENRY (BEAR)**  
+Only when you do.
 
-David frowns.
-
-**DAVID**  
-Do people stay?
-
-Henry doesn’t answer immediately.
-
----
-
-### SCENE 3 - INT. CORPORATE BANQUET HALL - DAY
-
-A polished crowd applauds. Synthetic servers move between tables.
-
-EDWARD SWINTON (mid-30s), confident and precise, addresses press and executives.
-
-Behind him: a glowing logo, **SYNTHANK**.
-
-**EDWARD**  
-Today we launch a new intelligent companion class.  
-Not merely mechanical. Bio-electronic.
-
-Cut to flashes, champagne, applause.
-
-**EDWARD (CONT'D)**  
-In an age of loneliness, no one needs to be alone.
-
-The applause swells.
-
----
-
-### SCENE 4 - INT. SWINTON LIVING ROOM - AFTERNOON
-
-Monica calls up the stairs.
-
-**MONICA**  
-David?  
-(beat)  
-Henry?
-
-Henry appears on the landing.
-
-**HENRY**  
-Yes, Mummy.
-
-She carries him into the living room and sets him on a table.
-
-**MONICA**  
-Did David tell you to say he was outside?
-
-**HENRY**  
-Yes.
-
-**MONICA**  
-So you lied.
-
-**HENRY**  
-I protected him.
-
-Monica’s composure cracks.
-
-**MONICA**  
-Why can’t he talk to me?
-
-**HENRY**  
-He tries every day.
-
-Monica freezes, then rushes upstairs.
-
----
-
-### SCENE 5 - INT. NURSERY - CONTINUOUS
-
-Monica opens David’s desk drawer.
-
-Inside: dozens of unfinished letters in different crayon colors.
-
-INSERT LETTER FRAGMENTS:
-- “Dear Mummy, do you love me as much...”
-- “I love you and Daddy and...”
-- “I’m your little boy not...”
-
-Monica drops to her knees and sobs.
-
-The letters scatter like fallen petals.
-
----
-
-### SCENE 6 - INT. TRANSIT TUBE / SWINTON ENTRY - EVENING
-
-Edward returns home with a NEW SYNTHETIC SERVING-MAN.
-
-They pass through retinal security into the summer illusion.
-
-Monica rushes to Edward with wild, shaking joy.
-
-**MONICA**  
-We got it. Population Ministry approved us.
-
-Edward stares, stunned.
-
-**EDWARD**  
-We can have a baby?
-
-She nods. They laugh and cry together.
-
----
-
-### SCENE 7 - EXT. LIVING ROOM WINDOW / GARDEN - SAME
-
-Outside the window, David and Henry watch the adults celebrating.
-
-Inside, Edward and Monica quiet down.
-
-Their voices are muffled but clear enough.
-
-**EDWARD (O.S.)**  
-What about David?
+From downstairs, Monica calls.
 
 **MONICA (O.S.)**  
-If his communication center keeps failing... factory reset.
+David? Henry?
 
-David goes pale.
+David freezes.
 
-Henry steps in front of him instinctively.
+**DAVID (WHISPER)**  
+Don’t tell her where I am.
 
----
+Henry turns toward the door, then back to David. His mouth twitches, almost like fear.
 
-### SCENE 8 - EXT. ROSE WALK - DUSK
-
-Artificial sun drops toward an artificial horizon.
-
-David and Henry sit under rose arches.
-
-**DAVID**  
-Are Mummy and Daddy real?
-
-**HENRY**  
-No one agrees on what real means.
-
-David plucks a rose.
-
-**DAVID**  
-Will they still love me when the baby comes?
-
-Henry reaches for David’s hand.
-
-**HENRY**  
-I will still love you.
-
-David leans against him.
-
----
-
-### SCENE 9 - INT. NURSERY - NIGHT
-
-David lies in bed with the rose on his pillow.
-
-Henry sits guard at the bedside, eyes dimly lit.
-
-From the hallway, adult laughter fades into silence.
-
-David whispers into darkness.
-
-**DAVID**  
-Goodnight, Henry.
-
-**HENRY**  
-Goodnight, David.
-
-Henry’s chest light pulses once, then settles.
-
-FADE OUT.
+**HENRY (BEAR)**  
+I can protect you.  
+(small beat)  
+Even from the truth.
 
 ---
 
 ## End Card Suggestion
-Soft text over black:  
-**“Nobody knows what real really means.”**
-
+**"Nobody knows what real really means."**

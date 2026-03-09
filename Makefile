@@ -12,13 +12,14 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master
 
 help:
 	@echo "Supertoys production helpers"
 	@echo ""
 	@echo "Targets:"
 	@echo "  make onboard      - Print first-session onboarding checklist"
+	@echo "  make sync-master  - Regenerate derivative docs from story master file"
 	@echo "  make init         - Create production folders"
 	@echo "  make check-tools  - Verify required CLI tools are installed"
 	@echo "  make review       - Encode a fast review MP4 from MASTER_MOV"
@@ -34,6 +35,9 @@ help:
 
 onboard:
 	@cat docs/START_HERE.md
+
+sync-master:
+	@python3 scripts/sync_from_master.py
 
 init:
 	@./scripts/init_production.sh

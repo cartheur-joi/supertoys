@@ -1,6 +1,16 @@
 # A SUMMER FOR SUPERTOYS
 ## Storyboard Panel Checklist
 
+<!-- MASTER_SYNC_START -->
+> Canon synced from `story/animated-story-adaptation.md`.
+> Last synced: 2026-03-09 18:16
+
+**Master Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
+
+**Master Character Rules:**
+- `Henry` is now the teddy bear (formerly `Teddy`).
+- The adult formerly named `Henry Swinton` is now `Edward Swinton`.
+<!-- MASTER_SYNC_END -->
 **Use with:** 3-minute cut  
 **Panel goal:** 36 panels (avg 5s)  
 **Columns:** Panel, Time, Camera, Action, Emotion Beat, Notes
@@ -65,4 +75,3 @@
 - David’s posture should visibly close over time (open -> guarded -> folded).
 - Monica should shift from numb -> sharp -> broken -> euphoric -> conflicted.
 - Edward should shift from polished certainty -> private vulnerability.
-

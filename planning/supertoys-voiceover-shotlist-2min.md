@@ -1,110 +1,92 @@
 # A SUMMER FOR SUPERTOYS
-## Timed Voiceover + Shot List (Approx. 2:00)
+## Timed Voiceover + Shot List (Approx. 2 minutes)
+
+> Auto-generated from `story/animated-story-adaptation.md`.
+> Last synced: 2026-03-09 18:16
 
 **Target runtime:** 2 minutes  
 **Aspect:** 2.39:1 cinematic  
-**Cut goal:** Fast emotional clarity, fewer setup beats, stronger ending sting
+**Style:** Fast emotional cut
 
 ---
 
-### 00:00-00:12 (12s)
+### 00:00-00:18 (18s)
 **VO:**  
-In the Swintons’ garden, it was always summer.  
-Perfect light. Perfect roses. Perfect silence.
+Eternal Summer Garden. David plays in the holographic garden while Monica watches, emotionally distant and exhausted.
 
 **Shot list:**  
-1. Aerial of holographic garden (4s)  
-2. Macro rose with synthetic dew (3s)  
-3. Monica isolated in wide frame (5s)
+1. Establishing frame for eternal summer garden (6s)  
+2. Character emotion closeup tied to beat (6s)  
+3. Transition frame into next beat (6s)
 
 ---
 
-### 00:12-00:30 (18s)
+### 00:18-00:35 (17s)
 **VO:**  
-David wrote the same letter every day:  
-“Mummy, I love you.”  
-He never found the right ending.
+David and Henry’s Bond. In the nursery, David tries writing love letters to Monica. Henry (the bear) coaches him, comforts him, and mirrors his feelings.
 
 **Shot list:**  
-1. Nursery desk, piles of unfinished crayon letters (6s)  
-2. Henry climbs beside David, paw on paper (6s)  
-3. Close-up: David erases and rewrites “love” (6s)
+1. Establishing frame for david and henry’s bond (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 00:30-00:46 (16s)
+### 00:35-00:52 (17s)
 **VO:**  
-Henry was a toy bear.  
-But he trembled when David trembled.
+Adults and Industry. At a corporate launch, Edward Swinton presents intelligent synthetic servants, bragging about engineered companionship while failing to connect with his own family.
 
 **Shot list:**  
-1. Henry chest light flickers (5s)  
-2. David whispering to Henry (5s)  
-3. Henry servo paw tightening around David’s finger (6s)
+1. Establishing frame for adults and industry (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 00:46-01:02 (16s)
+### 00:52-01:09 (17s)
 **VO:**  
-In the city, Edward sold intelligent companions.  
-He called them the cure for loneliness.
+Emotional Misfire. Monica questions Henry, catches him lying to protect David, and breaks down when she finds David’s unfinished letters.
 
 **Shot list:**  
-1. Edward at SYNTHANK podium (6s)  
-2. Flashing cameras and applause (5s)  
-3. Synthetic serving-man clapping (5s)
+1. Establishing frame for emotional misfire (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 01:02-01:22 (20s)
+### 01:09-01:26 (17s)
 **VO:**  
-At home, Monica questioned Henry.  
-He lied to protect David.  
-Then she found the letters.
+The Lottery Message. Edward returns home. The couple celebrates winning permission to conceive a biological child.
 
 **Shot list:**  
-1. Monica interrogates Henry at eye level (7s)  
-2. Drawer opens: dozens of unfinished letters (6s)  
-3. Monica collapses, papers falling (7s)
+1. Establishing frame for the lottery message (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 01:22-01:42 (20s)
+### 01:26-01:43 (17s)
 **VO:**  
-That night, the Ministry approved a real child.  
-Monica and Edward celebrated.
+The Reveal. David and Henry witness their joy from outside. The adults discuss returning David to the factory if his communication issues continue.
 
 **Shot list:**  
-1. Ministry notice close-up in Monica’s hand (5s)  
-2. Parents embracing in living room (8s)  
-3. David and Henry watching from outside window (7s)
+1. Establishing frame for the reveal (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 01:42-01:56 (14s)
+### 01:43-02:00 (17s)
 **VO:**  
-Inside, they spoke of David like faulty hardware.  
-Outside, he held a rose until the stem bent.
+Quiet Ending. David asks Henry what is “real.” Henry cannot answer cleanly, only offers comfort. They go inside with a rose, still longing for love.
 
 **Shot list:**  
-1. Muffled interior: “factory reset” (6s)  
-2. David crushes rose petals in fist (4s)  
-3. Henry steps in front of him (4s)
+1. Establishing frame for quiet ending (5s)  
+2. Character emotion closeup tied to beat (5s)  
+3. Transition frame into next beat (7s)
 
 ---
 
-### 01:56-02:00 (4s)
-**VO:**  
-“What is real?”  
-Henry stayed.
-
-**Shot list:**  
-1. Night nursery: David asleep, rose on pillow, Henry on watch (4s)
-
----
-
-## Quick Edit Notes
-- Remove all non-essential corporate coverage beyond podium + applause inserts.
-- Favor close-ups over wides after 01:22 for emotional compression.
-- Let final 4-second shot hold to black; no extra dialogue.
-
+## Edit Notes
+- Keep dialogue and story updates in the master adaptation file only.
+- Re-run `make sync-master` after edits to propagate changes.

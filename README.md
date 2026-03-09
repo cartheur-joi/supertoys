@@ -12,6 +12,7 @@ Supertoys as bears - and perhaps agents.
 make init
 make check-tools
 make status
+make sync-master
 ```
 
 ### Production Docs
@@ -27,6 +28,15 @@ make status
 - Source story doc: [A summer for supertoys.docx](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/source/A summer for supertoys.docx)
 - Adaptation notes: [animated-story-adaptation.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/animated-story-adaptation.md)
 - Screenplay draft: [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
+
+### Master Sync
+
+- Master file: `story/animated-story-adaptation.md`
+- After story/dialogue edits to the master file, run:
+
+```bash
+make sync-master
+```
 
 ### Background
 

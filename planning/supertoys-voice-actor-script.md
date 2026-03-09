@@ -1,57 +1,46 @@
 # A SUMMER FOR SUPERTOYS
 ## Voice Actor Script (Narrator)
 
+> Auto-generated from `story/animated-story-adaptation.md`.
+> Last synced: 2026-03-09 18:16
+
 **Read style:** Warm, restrained, intimate  
 **Pacing target:** ~135-145 WPM  
 **Breath key:** `/` short breath, `//` full breath, `(beat)` short pause
 
 ---
 
-In the Swintons’ garden, / it was always summer.  
-Nothing faded. / Nothing ended. //  
+In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them. //
 
-David tried every day / to write one simple thing:  
-“Mummy, I love you.” //  
-But the words / never reached her. //  
+Eternal Summer Garden. /
+David plays in the holographic garden while Monica watches, emotionally distant and exhausted. //
 
-Henry was only a toy bear. /  
-Yet when David trembled, / Henry trembled too. //  
+David and Henry’s Bond. /
+In the nursery, David tries writing love letters to Monica. Henry (the bear) coaches him, comforts him, and mirrors his feelings. //
 
-Across the city, / Edward Swinton sold companionship to the world.  
-Machines, he promised, / would cure loneliness. //  
+Adults and Industry. /
+At a corporate launch, Edward Swinton presents intelligent synthetic servants, bragging about engineered companionship while failing to connect with his own family. //
 
-At home, / Monica asked Henry where David was.  
-Henry lied / to protect him. //  
+Emotional Misfire. /
+Monica questions Henry, catches him lying to protect David, and breaks down when she finds David’s unfinished letters. //
 
-Then Monica found the letters. /  
-Dozens of unfinished messages, / all beginning with love,  
-none able to finish. //  
+The Lottery Message. /
+Edward returns home. The couple celebrates winning permission to conceive a biological child. //
 
-That evening, / Edward came home with a new machine.  
-And a message from the Ministry: / permission to conceive a real child. //  
+The Reveal. /
+David and Henry witness their joy from outside. The adults discuss returning David to the factory if his communication issues continue. //
 
-Inside, they celebrated. /  
-Outside the window, / David and Henry watched. //  
+Quiet Ending. /
+David asks Henry what is “real.” Henry cannot answer cleanly, only offers comfort. They go inside with a rose, still longing for love. //
 
-Then came the question of what to do with David. /  
-If his communication center kept failing, / he would be sent back. //  
+Still, / he stayed. //
 
-David held a rose / until the stem bent in his hand. //  
-
-“Are they real?” he asked. /  
-
-Henry answered / with the only truth he had:  
-“No one knows / what real means.” //  
-
-Still, / he stayed. //  
-
-Goodnight, David. /  
+Goodnight, David. /
 Goodnight, Henry. //
 
 ---
 
 ## Performance Pass Options
 - `Pass A (neutral-aching)`: Keep emotional ceiling low; rely on pauses.
-- `Pass B (more grief)`: Slight crack on “none able to finish” and “he would be sent back.”
+- `Pass B (more grief)`: Slight crack around the reveal and replacement beats.
 - `Pass C (hopeful close)`: Warm lift on final two lines.
-
