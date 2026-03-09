@@ -9,6 +9,7 @@ Quick map of important files by purpose.
 - [QUICKSTART_MAKE.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/QUICKSTART_MAKE.md)
 - [OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
 - [MASTERFILE_WORKFLOW.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/MASTERFILE_WORKFLOW.md)
+- [EMOTIONAL_STILLS_SHORTLIST.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/docs/EMOTIONAL_STILLS_SHORTLIST.md)
 
 ## Story and Script
 
@@ -35,12 +36,18 @@ Quick map of important files by purpose.
 
 - [Makefile](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/Makefile)
 - [scripts/sync_from_master.py](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/sync_from_master.py)
+- [scripts/bootstrap_comfyui.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/bootstrap_comfyui.sh)
+- [scripts/run_comfy_workflow.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/run_comfy_workflow.sh)
 - [scripts/init_production.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/init_production.sh)
 - [scripts/check_tools.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/check_tools.sh)
 - [scripts/encode_review.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/encode_review.sh)
 - [scripts/encode_final.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/encode_final.sh)
 - [scripts/audio_check.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/audio_check.sh)
 - [scripts/watch_master_sync.sh](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/scripts/watch_master_sync.sh)
+
+## Comfy Workflows
+
+- [tools/comfy-workflows/p17-emotional-still.json](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/tools/comfy-workflows/p17-emotional-still.json)
 
 ## Working Output Directory
 

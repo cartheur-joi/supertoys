@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17
 
 help:
 	@echo "Supertoys production helpers"
@@ -22,6 +22,8 @@ help:
 	@echo "  make sync-master  - Regenerate derivative docs from story master file"
 	@echo "  make watch-master - Watch master file; on save show diff then run sync-master"
 	@echo "  make lookdev-init - Create lookdev tracker CSV template"
+	@echo "  make comfy-bootstrap - Clone/install local ComfyUI (venv + requirements)"
+	@echo "  make comfy-p17    - Submit P17 still workflow to local ComfyUI API"
 	@echo "  make init         - Create production folders"
 	@echo "  make check-tools  - Verify required CLI tools are installed"
 	@echo "  make review       - Encode a fast review MP4 from MASTER_MOV"
@@ -34,6 +36,7 @@ help:
 	@echo "Overridable vars:"
 	@echo "  MASTER_MOV='$(EXPORTS_DIR)/supertoys_master.mov' make final"
 	@echo "  MIX_WAV='$(MIX_DIR)/supertoys_mix_v01.wav' make audio-check"
+	@echo "  COMFY_REPO='https://github.com/cartheur-joi/ComfyUI.git' make comfy-bootstrap"
 
 onboard:
 	@cat docs/START_HERE.md
@@ -46,6 +49,12 @@ watch-master:
 
 lookdev-init:
 	@./scripts/init_lookdev_tracker.sh production/refs/lookdev-tracker.csv
+
+comfy-bootstrap:
+	@./scripts/bootstrap_comfyui.sh
+
+comfy-p17:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p17-emotional-still.json http://127.0.0.1:8188/prompt
 
 init:
 	@./scripts/init_production.sh

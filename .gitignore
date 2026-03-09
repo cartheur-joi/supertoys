@@ -5,3 +5,6 @@ production/audio/
 production/blender/
 production/exports/
 production/refs/
+
+# Local ComfyUI install (large, machine-specific)
+tools/ComfyUI/

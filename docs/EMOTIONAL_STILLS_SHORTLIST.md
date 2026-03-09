@@ -84,6 +84,43 @@ https://leonardo.ai/
 2. Lock final look in local ComfyUI + SDXL for consistent batch generation of story panels.  
 3. Paint final touchups in Krita before importing to Blender.
 
+## First Local Still Test (P17)
+
+Run on the machine where you want to generate:
+
+```bash
+make comfy-bootstrap
+```
+
+Default clone source for bootstrap:
+- `https://github.com/cartheur-joi/ComfyUI.git`
+
+Override (if needed):
+
+```bash
+COMFY_REPO=https://github.com/comfyanonymous/ComfyUI.git make comfy-bootstrap
+```
+
+Then place checkpoint file in:
+- `tools/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors`
+
+Start ComfyUI API:
+
+```bash
+cd tools/ComfyUI
+source .venv/bin/activate
+python main.py --listen 127.0.0.1 --port 8188
+```
+
+In a second terminal, submit the P17 workflow:
+
+```bash
+make comfy-p17
+```
+
+Workflow file:
+- `tools/comfy-workflows/p17-emotional-still.json`
+
 ## Consistency Rules
 
 - Keep a fixed seed family per sequence:
