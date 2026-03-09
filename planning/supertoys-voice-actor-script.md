@@ -1,8 +1,8 @@
 # A SUMMER FOR SUPERTOYS
 ## Voice Actor Script (Narrator)
 
-> Auto-generated from `story/animated-story-adaptation.md`.
-> Last synced: 2026-03-09 18:16
+> Auto-generated from `story/workboard.md`.
+> Last synced: 2026-03-09 19:08
 
 **Read style:** Warm, restrained, intimate  
 **Pacing target:** ~135-145 WPM  

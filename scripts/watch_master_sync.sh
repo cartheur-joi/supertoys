@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MASTER_FILE="${1:-story/animated-story-adaptation.md}"
+MASTER_FILE="${1:-story/workboard.md}"
 
 if [[ ! -f "$MASTER_FILE" ]]; then
   echo "Master file not found: $MASTER_FILE"
@@ -97,4 +97,3 @@ while true; do
     done
   fi
 done
-

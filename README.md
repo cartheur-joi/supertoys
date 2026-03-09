@@ -26,12 +26,12 @@ make sync-master
 ### Core Story Files
 
 - Source story doc: [A summer for supertoys.docx](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/source/A summer for supertoys.docx)
-- Adaptation notes: [animated-story-adaptation.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/animated-story-adaptation.md)
+- Workboard (master): [workboard.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/workboard.md)
 - Screenplay draft: [supertoys-animated-screenplay.md](/home/cartheur/ame/aiventure/aiventure-github/cartheur-joi/supertoys/story/supertoys-animated-screenplay.md)
 
 ### Master Sync
 
-- Master file: `story/animated-story-adaptation.md`
+- Master file: `story/workboard.md`
 - After story/dialogue edits to the master file, run:
 
 ```bash

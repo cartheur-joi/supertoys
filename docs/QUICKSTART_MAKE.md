@@ -35,7 +35,7 @@ make status
 ## 4) Sync all derivative writing docs from the master story file
 
 Master file:
-- `story/animated-story-adaptation.md`
+- `story/workboard.md`
 
 Run:
 

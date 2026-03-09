@@ -45,7 +45,7 @@ sync-master:
 	@python3 scripts/sync_from_master.py
 
 watch-master:
-	@./scripts/watch_master_sync.sh story/animated-story-adaptation.md
+	@./scripts/watch_master_sync.sh story/workboard.md
 
 lookdev-init:
 	@./scripts/init_lookdev_tracker.sh production/refs/lookdev-tracker.csv

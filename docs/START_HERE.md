@@ -24,7 +24,7 @@ make status
 
 ## Master Story Rule
 
-- The canonical source is `story/animated-story-adaptation.md`.
+- The canonical source is `story/workboard.md`.
 - After any story/dialogue edit there, run:
 
 ```bash

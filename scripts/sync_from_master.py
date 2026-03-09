@@ -3,7 +3,7 @@
 Sync derivative story/planning docs from the master adaptation file.
 
 Master source of truth:
-  story/animated-story-adaptation.md
+  story/workboard.md
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MASTER = ROOT / "story" / "animated-story-adaptation.md"
+MASTER = ROOT / "story" / "workboard.md"
 SCREENPLAY = ROOT / "story" / "supertoys-animated-screenplay.md"
 VOICE_SCRIPT = ROOT / "planning" / "supertoys-voice-actor-script.md"
 SHOTLIST_3MIN = ROOT / "planning" / "supertoys-voiceover-shotlist-3min.md"
@@ -78,7 +78,7 @@ def build_screenplay(logline: str, beats: list[tuple[str, str]], sample_scene: s
         "# A SUMMER FOR SUPERTOYS",
         "## Animated Short Screenplay Draft",
         "",
-        "> Auto-generated from `story/animated-story-adaptation.md`.",
+        "> Auto-generated from `story/workboard.md`.",
         f"> Last synced: {ts()}",
         "",
         f"**Logline:** {logline}",
@@ -112,7 +112,7 @@ def build_voice_script(logline: str, beats: list[tuple[str, str]]) -> str:
         "# A SUMMER FOR SUPERTOYS",
         "## Voice Actor Script (Narrator)",
         "",
-        "> Auto-generated from `story/animated-story-adaptation.md`.",
+        "> Auto-generated from `story/workboard.md`.",
         f"> Last synced: {ts()}",
         "",
         "**Read style:** Warm, restrained, intimate  ",
@@ -166,7 +166,7 @@ def build_shotlist(
         "# A SUMMER FOR SUPERTOYS",
         f"## Timed Voiceover + Shot List (Approx. {runtime_label})",
         "",
-        "> Auto-generated from `story/animated-story-adaptation.md`.",
+        "> Auto-generated from `story/workboard.md`.",
         f"> Last synced: {ts()}",
         "",
         f"**Target runtime:** {runtime_label}  ",
@@ -211,7 +211,7 @@ def update_storyboard_header(logline: str, char_changes: list[str]) -> None:
     block = "\n".join(
         [
             marker_start,
-            "> Canon synced from `story/animated-story-adaptation.md`.",
+            "> Canon synced from `story/workboard.md`.",
             f"> Last synced: {ts()}",
             "",
             f"**Master Logline:** {logline}",

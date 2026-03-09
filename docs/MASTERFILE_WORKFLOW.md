@@ -2,7 +2,7 @@
 
 This repo uses one canonical story source:
 
-- `story/animated-story-adaptation.md`
+- `story/workboard.md`
 
 All downstream writing docs are generated from it.
 
@@ -35,7 +35,7 @@ Run:
 make watch-master
 ```
 
-Behavior on every save of `story/animated-story-adaptation.md`:
+Behavior on every save of `story/workboard.md`:
 1. Shows diff from previous saved version of the master file.
 2. Runs `make sync-master`.
 3. Shows diffs for regenerated downstream files.
@@ -44,13 +44,12 @@ Stop watcher with `Ctrl+C`.
 
 ## Common Daily Loop
 
-1. Edit `story/animated-story-adaptation.md`
+1. Edit `story/workboard.md`
 2. Save file
 3. Review diff output from watcher
 4. If good, commit changes:
 
 ```bash
-git add story/animated-story-adaptation.md story/supertoys-animated-screenplay.md planning/
+git add story/workboard.md story/supertoys-animated-screenplay.md planning/
 git commit -m "Update story and synced planning docs"
 ```
-
