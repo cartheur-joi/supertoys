@@ -26,6 +26,12 @@ make sync-master
 
 ### Production Docs
 
+### GitHub Pages
+
+- Published docs: [cartheur-joi.github.io/supertoys](https://cartheur-joi.github.io/supertoys/)
+- HenryBear emotional evidence page: [HenryBear Emotional Evidence](https://cartheur-joi.github.io/supertoys/henrybear-emotional-evidence.html)
+
+
 - Start guide: [START_HERE.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/START_HERE.md)
 - Full file map: [PROJECT_INDEX.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/PROJECT_INDEX.md)
 - Main Debian guide: [OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
