@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HenryBear Emotional Evidence
+title: Emotional Toys Meaningful Interaction Evidence
 ---
 
 # HenryBear Emotional Evidence
