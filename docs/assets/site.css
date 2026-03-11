@@ -1,0 +1,87 @@
+:root {
+  --bg: #0b1020;
+  --panel: #111a33;
+  --text: #e8ecff;
+  --muted: #aeb8dc;
+  --link: #84b8ff;
+  --link-hover: #b8d6ff;
+  --border: #2c3b63;
+  --code-bg: #0a1329;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 15% 15%, #16254a 0%, var(--bg) 55%);
+  color: var(--text);
+  font-family: "Segoe UI", "Noto Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 1.4rem 1.2rem;
+  background: color-mix(in srgb, var(--panel) 94%, black 6%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+p,
+li {
+  color: var(--text);
+}
+
+code,
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+code {
+  padding: 0.12rem 0.32rem;
+}
+
+pre {
+  padding: 0.8rem;
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+@media (max-width: 700px) {
+  .page {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
