@@ -3,11 +3,9 @@ layout: default
 title: Emotional Toys Meaningful Interaction Evidence
 ---
 
-# HenryBear Emotional Evidence
+# Emotional Toys Meaningful Interaction Evidence
 
-This page exposes the HenryBear runtime emotional evidence outputs for Supertoys documentation and GitHub Pages publishing.
-
-Source repository: [cartheur-joi/henry-bear](https://github.com/cartheur-joi/henry-bear)
+This page introduces how emotional interaction evidence can be reviewed as a readable visual artifact. Instead of relying on vague impressions, the diagram helps show how emotional states change, repeat, and connect across an interaction session.
 
 ## Emotional Evidence
 
