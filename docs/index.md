@@ -28,21 +28,39 @@ The evidence diagram is the visual summary artifact intended for review and vali
 
 ![Emotion Evidence Sample](assets/emotion-evidence-sample.svg)
 
-## Validate HenryBear Build (Reference)
+## How to Read This Diagram
 
-Voice regression:
+Use the diagram as a compact map of emotional state over time:
 
-```bash
-./interactive-toys/henry-test-voice.sh
-./interactive-toys/henry-test-voice.sh "how are you"
-```
+- Treat each cluster as a moment or segment in the runtime interaction.
+- Read directional links as transitions between emotional states.
+- Compare dense vs sparse regions to identify recurring or unstable emotional patterns.
+- Use labels and grouping to understand which emotional signatures are dominant in the session.
 
-Animals regression:
+## How It Connects to the Evidence Bundle
 
-```bash
-dotnet run --project animals-tests/Cartheur.Animals.Tests.csproj
-```
+The sample diagram is one artifact in a larger evidence set:
 
-## Notes
+- `diagram.svg`: the visual structure shown above.
+- `timeline.csv`: the chronological sequence that explains when transitions occurred.
+- `evidence.json`: the structured data behind state/transition evidence.
+- `manifest.sha256.json`: integrity metadata for reproducibility and verification.
 
-This page mirrors and reframes the emotional evidence section from HenryBear's `README.md` for publication in the Supertoys docs surface.
+## What This View Is For
+
+This page is focused on the emotional diagram as a review artifact:
+
+- quick inspection of emotional flow
+- identifying repeated loops or sharp state changes
+- comparing sessions at a high level before deeper JSON/CSV analysis
+
+## Why This Emotional Toys Concept Matters
+
+If you’re into emotional toys, this is worth looking at because it doesn’t fake emotion with static lines. It actually tracks emotional behavior over time and shows you what happened.
+
+Why that’s useful in practice:
+
+- You can spot patterns instead of guessing from one-off interactions.
+- You can tune behavior using real evidence from sessions.
+- Story goals and technical behavior stay connected because both show up in the same artifacts.
+- Over time, it gives you a better shot at building toys that feel responsive instead of repetitive.
