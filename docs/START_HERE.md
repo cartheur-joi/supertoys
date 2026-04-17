@@ -62,3 +62,31 @@ make submission-package
 
 - 8-week plan: `docs/PRODUCTION_PLAN_8WEEKS.md`
 - Project map: `docs/PROJECT_INDEX.md`
+
+## 6) Resume On Another Computer (Agent Prompt)
+
+Use this prompt on the other machine:
+
+```text
+Resume Supertoys from latest state.
+
+1) Verify repo is up to date and includes commits:
+- 90ce531 (8-week production/submission workflow)
+- 0663d19 (strong CPU ComfyUI profile)
+
+2) If missing, pull latest `main` from origin.
+
+3) Run and report:
+- make status
+- make check-tools
+- make submission-init
+- make comfy-run-cpu-strong   (in one terminal)
+- make comfy-p17              (in another terminal)
+
+4) Confirm workflow output appears in tools/ComfyUI/output and then:
+- create production/stills/P17/
+- copy best P17 image to production/selects/P17_select.png
+- update production/refs/lookdev-tracker.csv for P17 (seed/model/prompt_version/selected=yes)
+
+5) Continue with hero shots P07, P25, P32 in the same process and give me a short progress report.
+```
