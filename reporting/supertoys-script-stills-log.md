@@ -2,7 +2,7 @@
 
 Living output file to track script beats and selected stills as we generate panels.
 
-> Last synced: 2026-04-17 19:55
+> Last synced: 2026-04-17 20:24
 
 ## Script Sources
 
@@ -15,16 +15,16 @@ Living output file to track script beats and selected stills as we generate pane
 | Panel | Time | Script/Shot Beat | Selected Still | Status | Notes |
 |---|---|---|---|---|---|
 | P17 | 00:01:15-00:01:22 | Monica interrogates Henry | `production/selects/P17/P17_select.png` | selected | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p17-emotional-still`; seed `42001717`; candidate `P17_00001_.png`; HQ pass selected from tools/ComfyUI/output/supertoys |
-| P20 | 00:01:33-00:01:40 | Monica breakdown high angle | `TBD` | pending |   |
-| P25 | 00:02:05-00:02:12 | Window inside-outside split | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p25-separation-still-fast`; seed `42002525`; candidate `P25_fast_00001_.png`; Fast preview candidate copied to production/selects/P25/P25_candidate_fast_00001.png |
-| P27 | 00:02:20-00:02:28 | Rose stem bends in hand | `TBD` | pending |   |
-| P28 | 00:02:28-00:02:35 | Henry shields David | `TBD` | pending |   |
-| P30 | 00:02:42-00:02:48 | Profile question closeup | `TBD` | pending |   |
-| P31 | 00:02:48-00:02:55 | Hand clasp chest light steady | `TBD` | pending |   |
-| P32 | 00:02:55-00:03:00 | Night nursery final tableau | `TBD` | pending |   |
-| P01 | 00:00:00-00:00:04 | Wide aerial garden reveal | `TBD` | pending |   |
-| P07 | 00:00:25-00:00:30 | Henry paw on letter | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p07-support-still-fast`; seed `42000707`; candidate `P07_fast_00001_.png`; Fast preview candidate copied to production/selects/P07/P07_candidate_fast_00001.png |
-| P19 | 00:01:27-00:01:33 | Drawer reveal letters | `TBD` | pending |   |
+| P20 | 00:01:33-00:01:40 | Monica breakdown high angle | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42002020`; candidate `P20_fast_00001_.png`; Saved snapshot candidates in production/selects/P20/ and mirrored to reporting/selects/P20_latest_output.png |
+| P25 | 00:02:05-00:02:12 | Window inside-outside split | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p25-separation-still-fast`; seed `42002525`; candidate `P25_fast_00001_.png`; Saved snapshot candidates in production/selects/P25/ and mirrored to reporting/selects/P25_latest_output.png |
+| P27 | 00:02:20-00:02:28 | Rose stem bends in hand | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42002727`; candidate `P27_fast_00001_.png`; Saved snapshot candidates in production/selects/P27/ and mirrored to reporting/selects/P27_latest_output.png |
+| P28 | 00:02:28-00:02:35 | Henry shields David | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42002828`; candidate `P28_fast_00001_.png`; Saved snapshot candidates in production/selects/P28/ and mirrored to reporting/selects/P28_latest_output.png |
+| P30 | 00:02:42-00:02:48 | Profile question closeup | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42003030`; candidate `P30_fast_00001_.png`; Saved snapshot candidates in production/selects/P30/ and mirrored to reporting/selects/P30_latest_output.png |
+| P31 | 00:02:48-00:02:55 | Hand clasp chest light steady | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42003131`; candidate `P31_fast_00001_.png`; Saved snapshot candidates in production/selects/P31/ and mirrored to reporting/selects/P31_latest_output.png |
+| P32 | 00:02:55-00:03:00 | Night nursery final tableau | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42003232`; candidate `P32_fast_00001_.png`; Saved snapshot candidates in production/selects/P32/ and mirrored to reporting/selects/P32_latest_output.png |
+| P01 | 00:00:00-00:00:04 | Wide aerial garden reveal | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42000101`; candidate `P01_fast_00001_.png`; Saved snapshot candidates in production/selects/P01/ and mirrored to reporting/selects/P01_latest_output.png |
+| P07 | 00:00:25-00:00:30 | Henry paw on letter | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p07-support-still-fast`; seed `42000707`; candidate `P07_fast_00001_.png`; Saved snapshot candidates in production/selects/P07/ and mirrored to reporting/selects/P07_latest_output.png |
+| P19 | 00:01:27-00:01:33 | Drawer reveal letters | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `auto-fast-series-v1`; seed `42001919`; candidate `P19_fast_00001_.png`; Saved snapshot candidates in production/selects/P19/ and mirrored to reporting/selects/P19_latest_output.png |
 | P23 | 00:01:51-00:01:58 | Ministry notice insert | `TBD` | pending |   |
 
 ## Update Rule

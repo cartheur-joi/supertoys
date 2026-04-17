@@ -73,11 +73,31 @@ def panel_seed(panel: str) -> int:
     return 42000000 + (num * 101)
 
 
-def build_prompt(video_note: str, emotion: str) -> str:
+def scene_context_for_panel(panel: str) -> str:
+    num = int(panel[1:])
+    if 1 <= num <= 4:
+        return "artificial summer garden exterior, open air, botanical atmosphere"
+    if 5 <= num <= 12:
+        return "nursery desk area interior, intimate close framing, letter-writing props"
+    if 13 <= num <= 16:
+        return "corporate event hall interior, stage lighting, public spectacle tone"
+    if 17 <= num <= 24:
+        return "domestic confrontation interior, emotional pressure, key props in frame"
+    if num == 25:
+        return "exterior window vantage, subjects separated by glass, indoors visible beyond"
+    if 26 <= num <= 29:
+        return "transitional dusk space, threshold between inside and outside, emotional distance"
+    if 30 <= num <= 32:
+        return "night nursery mood, low-key lighting, calm-but-fragile atmosphere"
+    return "cinematic story frame with environment continuity"
+
+
+def build_prompt(panel: str, video_note: str, emotion: str) -> str:
     beat = video_note.strip().lower() if video_note.strip() else "cinematic still scene"
     emo = emotion.replace("_", " ").strip().lower() if emotion.strip() else "emotional tension"
+    scene = scene_context_for_panel(panel)
     return (
-        f"{beat}, emotional beat {emo}, retro-futurist domestic interior, "
+        f"{beat}, emotional beat {emo}, {scene}, "
         "warm-but-uneasy cinematic lighting, emotional sci-fi fairy tale, "
         "painterly photoreal style, 2.39:1"
     )
@@ -277,7 +297,7 @@ def main() -> int:
         emotion = (tracker_row.get("emotion") or "").strip()
 
         wf = copy.deepcopy(template)
-        wf["6"]["inputs"]["text"] = build_prompt(video_note, emotion)
+        wf["6"]["inputs"]["text"] = build_prompt(panel, video_note, emotion)
         wf["3"]["inputs"]["seed"] = panel_seed(panel)
         wf["9"]["inputs"]["filename_prefix"] = f"supertoys/{panel}_fast"
 
