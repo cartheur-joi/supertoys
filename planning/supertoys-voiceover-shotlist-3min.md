@@ -2,7 +2,7 @@
 ## Timed Voiceover + Shot List (Approx. 3 minutes)
 
 > Auto-generated from `story/workboard.md`.
-> Last synced: 2026-03-09 19:29
+> Last synced: 2026-04-17 15:31
 
 **Target runtime:** 3 minutes  
 **Aspect:** 2.39:1 cinematic  

@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17 submission-init submission-check submission-package plan-8week
 
 help:
 	@echo "Supertoys production helpers"
@@ -22,6 +22,10 @@ help:
 	@echo "  make sync-master  - Regenerate derivative docs from story master file"
 	@echo "  make watch-master - Watch master file; on save show diff then run sync-master"
 	@echo "  make lookdev-init - Create lookdev tracker CSV template"
+	@echo "  make submission-init - Create submission metadata templates + tracker"
+	@echo "  make submission-check - Validate submission package requirements"
+	@echo "  make submission-package - Zip submission folder for handoff"
+	@echo "  make plan-8week    - Print 8-week production plan"
 	@echo "  make comfy-bootstrap - Clone/install local ComfyUI (venv + requirements)"
 	@echo "  make comfy-p17    - Submit P17 still workflow to local ComfyUI API"
 	@echo "  make init         - Create production folders"
@@ -49,6 +53,21 @@ watch-master:
 
 lookdev-init:
 	@./scripts/init_lookdev_tracker.sh production/refs/lookdev-tracker.csv
+
+submission-init:
+	@./scripts/init_submission_package.sh
+	@./scripts/init_submission_tracker.sh reporting/supertoys-festival-submission-tracker.csv
+
+submission-check:
+	@./scripts/validate_submission_package.sh
+
+submission-package:
+	@mkdir -p "$(EXPORTS_DIR)"
+	@zip -r "$(EXPORTS_DIR)/$(PROJECT)_submission_package_$(DATE).zip" production/submission reporting/supertoys-festival-submission-tracker.csv
+	@echo "Created $(EXPORTS_DIR)/$(PROJECT)_submission_package_$(DATE).zip"
+
+plan-8week:
+	@cat docs/PRODUCTION_PLAN_8WEEKS.md
 
 comfy-bootstrap:
 	@./scripts/bootstrap_comfyui.sh
@@ -83,7 +102,11 @@ status:
 	@echo "Core docs:"
 	@for f in \
 		docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md \
+		docs/START_HERE.md \
+		docs/PROJECT_INDEX.md \
+		docs/PRODUCTION_PLAN_8WEEKS.md \
 		reporting/supertoys-animated-screenplay.md \
+		reporting/supertoys-festival-submission-tracker.csv \
 		planning/supertoys-voice-actor-script.md \
 		animatic/supertoys-edit-decision-list.csv; do \
 		if [[ -f "$$f" ]]; then echo "  found $$f"; else echo "  missing $$f"; fi; \

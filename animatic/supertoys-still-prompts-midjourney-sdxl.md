@@ -9,7 +9,7 @@ Use these prompts with the panel numbers from `planning/supertoys-storyboard-pan
 - `David`: synthetic boy, age 7, dark hair, pale skin, expressive eyes, simple cream shirt and slate shorts.
 - `Henry` (bear): worn golden plush, visible stitch repairs, subtle mechanical seams, glass eyes, chest status light.
 - `Monica`: elegant woman, late 20s, sculptural posture, refined neutral clothing, emotionally restrained face.
-- `Edward`: corporate executive, mid-30s, tailored formalwear, controlled smile, tired eyes.
+- `David`: corporate executive, mid-30s, tailored formalwear, controlled smile, tired eyes.
 
 ### Environment anchors
 - Eternal holographic garden, warm amber light, roses, immaculate pathways.
@@ -125,7 +125,7 @@ Use these prompts with the panel numbers from `planning/supertoys-storyboard-pan
 `Wide shot of a sleek corporate launch hall, cyan and silver tones, futuristic branding, press and executives applauding`
 
 ### P14
-- Intent: Edward presentation power.
+- Intent: David presentation power.
 - Midjourney:
 `executive man at podium delivering keynote, camera flashes, confident posture, cool modern dystopian corporate environment`
 - SDXL:
@@ -174,7 +174,7 @@ Use these prompts with the panel numbers from `planning/supertoys-storyboard-pan
 `High-angle shot of woman breaking down on nursery floor as paper letters scatter, visual metaphor of falling petals`
 
 ### P21
-- Intent: Edward arrival with new machine.
+- Intent: David arrival with new machine.
 - Midjourney:
 `futuristic transit arrival silhouette of executive and humanoid servant entering apartment threshold, evening light contrast`
 - SDXL:

@@ -13,8 +13,8 @@ We are building this to turn a strong emotional science-fiction premise into a f
 
 ### Start
 
-1. Read [START_HERE.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/START_HERE.md)
-2. Then open [PROJECT_INDEX.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/PROJECT_INDEX.md)
+1. Read [`docs/START_HERE.md`](docs/START_HERE.md)
+2. Then open [`docs/PROJECT_INDEX.md`](docs/PROJECT_INDEX.md)
 3. Run:
 
 ```bash
@@ -22,6 +22,8 @@ make init
 make check-tools
 make status
 make sync-master
+make lookdev-init
+make submission-init
 ```
 
 ### Production Docs
@@ -29,14 +31,13 @@ make sync-master
 ### GitHub Pages
 
 - Published docs: [cartheur-joi.github.io/supertoys](https://cartheur-joi.github.io/supertoys/)
-- HenryBear emotional evidence page: [HenryBear Emotional Evidence](https://cartheur-joi.github.io/supertoys/henrybear-emotional-evidence.html)
 
-
-- Start guide: [START_HERE.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/START_HERE.md)
-- Full file map: [PROJECT_INDEX.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/PROJECT_INDEX.md)
-- Main Debian guide: [OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
-- Makefile quickstart: [QUICKSTART_MAKE.md](https://github.com/cartheur-joi/supertoys/blob/main/docs/QUICKSTART_MAKE.md)
-- Animatic package index: [animatic/README.md](https://github.com/cartheur-joi/supertoys/blob/main/animatic/README.md)
+- Start guide: [`docs/START_HERE.md`](docs/START_HERE.md)
+- Full file map: [`docs/PROJECT_INDEX.md`](docs/PROJECT_INDEX.md)
+- Main Debian guide: [`docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md`](docs/OPEN_SOURCE_ANIMATION_GUIDE_DEBIAN.md)
+- Makefile quickstart: [`docs/QUICKSTART_MAKE.md`](docs/QUICKSTART_MAKE.md)
+- 8-week production plan: [`docs/PRODUCTION_PLAN_8WEEKS.md`](docs/PRODUCTION_PLAN_8WEEKS.md)
+- Animatic package index: [`animatic/README.md`](animatic/README.md)
 
 ### Core Story Files
 
@@ -65,6 +66,5 @@ make watch-master
 
 ### Getting to GO! prompt
 
-`Use story/workboard.md as master; run sync/watch; bootstrap ComfyUI; generate P17 still via make comfy-p17; update lookdev tracker; report blockers.`
-
+`Use story/workboard.md as master; run sync/watch; bootstrap ComfyUI; generate P17 still via make comfy-p17; update lookdev tracker; initialize submission package/tracker; report blockers.`
 

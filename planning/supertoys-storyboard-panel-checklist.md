@@ -3,7 +3,7 @@
 
 <!-- MASTER_SYNC_START -->
 > Canon synced from `story/workboard.md`.
-> Last synced: 2026-03-09 19:29
+> Last synced: 2026-04-17 15:31
 
 **Master Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
 
@@ -37,7 +37,7 @@
 12. **P12 | 00:50-00:55** | Insert hand/paw | Henry grips finger | Protective instinct | Emphasize fabric compression  
 
 13. **P13 | 00:55-01:01** | Wide banquet | SYNTHANK stage and crowd | Public spectacle | Cold palette shift  
-14. **P14 | 01:01-01:07** | Medium podium | Edward speech gesture | Controlled confidence | Camera flash overlays  
+14. **P14 | 01:01-01:07** | Medium podium | David speech gesture | Controlled confidence | Camera flash overlays  
 15. **P15 | 01:07-01:11** | Close-up crowd | Applause and smiles | Performative warmth | Smiles should feel brittle  
 16. **P16 | 01:11-01:15** | Medium serving-man | Applauds in sync | Manufactured belonging | Slight delay in timing  
 
@@ -46,8 +46,8 @@
 19. **P19 | 01:27-01:33** | Insert drawer open | Dozens of letters revealed | Emotional shock | Quick rack focus to text  
 20. **P20 | 01:33-01:40** | High angle Monica | Collapse as papers fall | Grief release | Papers fill frame transition  
 
-21. **P21 | 01:40-01:46** | Wide transit entry | Edward + serving-man arrival | Momentum | Motion blur through gate  
-22. **P22 | 01:46-01:51** | Medium foyer | Monica rushes to Edward | Sudden hope | Warm key light returns  
+21. **P21 | 01:40-01:46** | Wide transit entry | David + serving-man arrival | Momentum | Motion blur through gate  
+22. **P22 | 01:46-01:51** | Medium foyer | Monica rushes to David | Sudden hope | Warm key light returns  
 23. **P23 | 01:51-01:58** | Insert notice | Ministry approval text | Turning point | Keep readable for 2 seconds  
 24. **P24 | 01:58-02:05** | Medium embrace | Laughing/crying together | Ecstatic relief | Spin or slight orbit move  
 
@@ -78,4 +78,4 @@
 - Henry’s chest pulse must track stress states consistently.
 - David’s posture should visibly close over time (open -> guarded -> folded).
 - Monica should shift from numb -> sharp -> broken -> euphoric -> conflicted.
-- Edward should shift from polished certainty -> private vulnerability.
+- David should shift from polished certainty -> private vulnerability.

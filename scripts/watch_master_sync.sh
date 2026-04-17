@@ -18,7 +18,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
 DERIVED_FILES=(
-  "story/supertoys-animated-screenplay.md"
+  "reporting/supertoys-animated-screenplay.md"
   "planning/supertoys-voice-actor-script.md"
   "planning/supertoys-voiceover-shotlist-3min.md"
   "planning/supertoys-voiceover-shotlist-2min.md"

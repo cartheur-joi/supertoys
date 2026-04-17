@@ -66,8 +66,8 @@ def parse_bullets(block: str) -> list[str]:
 
 
 def infer_names(char_defs: list[str]) -> tuple[str, str]:
-    child = "David"
-    parent = "Edward"
+    child = "Julian"
+    parent = "David"
     for item in char_defs:
         names = re.findall(r"`([^`]+)`", item)
         if not names:

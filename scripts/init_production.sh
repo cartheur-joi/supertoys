@@ -10,6 +10,9 @@ mkdir -p production/audio/mix
 mkdir -p production/blender
 mkdir -p production/exports
 mkdir -p production/refs
+mkdir -p production/submission/metadata
+mkdir -p production/submission/promo
+mkdir -p production/submission/subtitles
+mkdir -p production/submission/legal
 
 echo "Created/verified production folder structure under ./production"
-

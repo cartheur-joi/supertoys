@@ -46,7 +46,7 @@ Automate chest-light pulse with sub hit at -26 dB.
 
 ### 00:55-01:15
 - VO:
-`Across the city, Edward Swinton sold companionship to the world. Machines, he promised, would cure loneliness.`
+`Across the city, David Swinton sold companionship to the world. Machines, he promised, would cure loneliness.`
 - Music:
 Shift to cooler texture: muted synth ostinato.
 - SFX:
@@ -66,7 +66,7 @@ Silence dip (200 ms) right before “Then Monica found the letters.”
 
 ### 01:40-02:05
 - VO:
-`That evening, Edward came home with a new machine. And a message: permission to have a real child.`
+`That evening, David came home with a new machine. And a message: permission to have a real child.`
 - Music:
 Swelling strings + warm piano octave.
 - SFX:
