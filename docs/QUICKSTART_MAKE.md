@@ -20,6 +20,7 @@ make watch-master
 
 ```bash
 make status
+make comfy-run-cpu-strong
 make review
 make final
 make audio-check

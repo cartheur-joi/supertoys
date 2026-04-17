@@ -27,6 +27,12 @@ source .venv/bin/activate
 python main.py --listen 127.0.0.1 --port 8188
 ```
 
+Strong CPU profile (recommended on non-GPU machines):
+
+```bash
+make comfy-run-cpu-strong
+```
+
 And submit a workflow from repo root:
 
 ```bash

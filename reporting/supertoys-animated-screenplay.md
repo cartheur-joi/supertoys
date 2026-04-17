@@ -2,7 +2,7 @@
 ## Animated Short Screenplay Draft
 
 > Auto-generated from `story/workboard.md`.
-> Last synced: 2026-04-17 15:31
+> Last synced: 2026-04-17 15:40
 
 **Logline:** In an artificial world where children are licensed and love is rationed, a synthetic boy and his teddy bear Henry try desperately to be loved before a new “real” baby replaces them.
 
