@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init script-stills-sync comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-p07 comfy-p07-fast comfy-p07-hq comfy-p25 comfy-p25-fast comfy-p25-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init script-stills-sync comfy-bootstrap comfy-fast-series comfy-p17 comfy-p17-fast comfy-p17-hq comfy-p07 comfy-p07-fast comfy-p07-hq comfy-p25 comfy-p25-fast comfy-p25-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
 
 help:
 	@echo "Supertoys production helpers"
@@ -29,6 +29,7 @@ help:
 	@echo "  make plan-8week    - Print 8-week production plan"
 	@echo "  make comfy-bootstrap - Clone/install local ComfyUI (venv + requirements)"
 	@echo "  make comfy-run-cpu-strong - Start ComfyUI API with strong CPU profile"
+	@echo "  make comfy-fast-series - Run pending fast panels unattended (skips existing fast renders)"
 	@echo "  make comfy-p17-fast - Submit low-cost P17 preview workflow"
 	@echo "  make comfy-p17-hq - Submit high-quality P17 workflow"
 	@echo "  make comfy-p17    - Alias for comfy-p17-hq"
@@ -87,6 +88,9 @@ comfy-bootstrap:
 
 comfy-run-cpu-strong:
 	@./scripts/run_comfy_cpu_strong.sh
+
+comfy-fast-series:
+	@python3 scripts/run_comfy_fast_series.py --notify $(if $(PANELS),--panels "$(PANELS)",) $(if $(FORCE),--force,)
 
 comfy-p17:
 	@$(MAKE) comfy-p17-hq

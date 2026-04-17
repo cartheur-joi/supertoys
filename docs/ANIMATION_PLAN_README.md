@@ -47,6 +47,14 @@ Reference: `animatic/supertoys-production-checklist.md`
    - Update `production/refs/lookdev-tracker.csv`
    - Run `make script-stills-sync`
 
+### Optional Unattended Mode
+
+- Run all pending fast panels automatically:
+  - `make comfy-fast-series`
+- Skip behavior is default for already-rendered fast candidates.
+- Force rerender when needed:
+  - `make comfy-fast-series FORCE=1`
+
 ## Editing + Audio Plan
 
 1. Assemble timeline from `animatic/supertoys-edit-decision-list.csv`
@@ -73,4 +81,3 @@ Reference: `animatic/supertoys-production-checklist.md`
 - Remaining hero shots to advance in preview-first mode: `P25`, `P32`
 
 Live progress log: `reporting/supertoys-script-stills-log.md`
-

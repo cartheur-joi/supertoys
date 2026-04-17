@@ -40,14 +40,40 @@ make comfy-p17-hq
 - 1344x576 resolution
 - 32 steps
 
-## 4) Daily Spend Guardrails
+## 4) Unattended Fast Batch
+
+Run pending fast panels without babysitting:
+
+```bash
+make comfy-fast-series
+```
+
+Behavior:
+- plays start/finish notification tones
+- auto-updates tracker + script/stills log
+- copies each finished render into `production/selects/<PANEL>/`
+- skips panels that already have fast candidates
+
+Force rerender if needed:
+
+```bash
+make comfy-fast-series FORCE=1
+```
+
+Run only specific panels:
+
+```bash
+make comfy-fast-series PANELS="P27,P28,P30"
+```
+
+## 5) Daily Spend Guardrails
 
 - Target 70% preview runs, 30% HQ runs.
 - Hard stop after 3 failed HQ attempts on one panel; return to fast mode.
 - Batch review outputs in one pass to avoid rerendering from indecision.
 - Keep a short notes log in `production/refs/lookdev-tracker.csv` (`prompt_version`, `seed`, `selected`).
 
-## 5) End Session Checklist
+## 6) End Session Checklist
 
 ```bash
 ls -lah tools/ComfyUI/output/supertoys | tail -n 20
@@ -56,4 +82,3 @@ ls -lah tools/ComfyUI/output/supertoys | tail -n 20
 - Copy selected still(s) to `production/selects/`.
 - Update `production/refs/lookdev-tracker.csv`.
 - Shut down ComfyUI/pod immediately.
-
