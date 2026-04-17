@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init script-stills-sync comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-p07 comfy-p07-fast comfy-p07-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
 
 help:
 	@echo "Supertoys production helpers"
@@ -22,6 +22,7 @@ help:
 	@echo "  make sync-master  - Regenerate derivative docs from story master file"
 	@echo "  make watch-master - Watch master file; on save show diff then run sync-master"
 	@echo "  make lookdev-init - Create lookdev tracker CSV template"
+	@echo "  make script-stills-sync - Regenerate script+stills markdown log"
 	@echo "  make submission-init - Create submission metadata templates + tracker"
 	@echo "  make submission-check - Validate submission package requirements"
 	@echo "  make submission-package - Zip submission folder for handoff"
@@ -31,6 +32,9 @@ help:
 	@echo "  make comfy-p17-fast - Submit low-cost P17 preview workflow"
 	@echo "  make comfy-p17-hq - Submit high-quality P17 workflow"
 	@echo "  make comfy-p17    - Alias for comfy-p17-hq"
+	@echo "  make comfy-p07-fast - Submit low-cost P07 preview workflow"
+	@echo "  make comfy-p07-hq - Submit high-quality P07 workflow"
+	@echo "  make comfy-p07    - Alias for comfy-p07-hq"
 	@echo "  make init         - Create production folders"
 	@echo "  make check-tools  - Verify required CLI tools are installed"
 	@echo "  make review       - Encode a fast review MP4 from MASTER_MOV"
@@ -56,6 +60,9 @@ watch-master:
 
 lookdev-init:
 	@./scripts/init_lookdev_tracker.sh production/refs/lookdev-tracker.csv
+
+script-stills-sync:
+	@python3 scripts/sync_script_stills_log.py
 
 submission-init:
 	@./scripts/init_submission_package.sh
@@ -86,6 +93,15 @@ comfy-p17-fast:
 
 comfy-p17-hq:
 	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p17-emotional-still.json http://127.0.0.1:8188/prompt
+
+comfy-p07:
+	@$(MAKE) comfy-p07-hq
+
+comfy-p07-fast:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p07-support-still-fast.json http://127.0.0.1:8188/prompt
+
+comfy-p07-hq:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p07-support-still.json http://127.0.0.1:8188/prompt
 
 init:
 	@./scripts/init_production.sh
