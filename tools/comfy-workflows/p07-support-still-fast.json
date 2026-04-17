@@ -20,7 +20,7 @@
         "4",
         1
       ],
-      "text": "close-up of a small teddy bear placing one stitched paw on a handwritten letter, intimate nursery desk scene, emotional support gesture, warm evening practical light, quiet cinematic framing, emotional sci-fi fairy tale, painterly photoreal style, 2.39:1"
+      "text": "medium two-shot at nursery desk, exactly two subjects in frame (David child and Henry teddy bear), both faces visible, Henry places one stitched paw on handwritten letter, letter and crayon clearly visible on desk foreground, eye-level camera, gentle support beat, deliberate gesture not cute, warm late-afternoon amber practical light, intimate emotional sci-fi fairy tale, painterly photoreal style, cinematic 2.39:1"
     }
   },
   "7": {
@@ -30,7 +30,7 @@
         "4",
         1
       ],
-      "text": "lowres, blurry, watermark, text artifacts, logo, deformed hands, extra fingers, duplicate face, melted fabric, noisy skin, oversaturated neon, cartoonish proportions, anime style"
+      "text": "single subject only, close-up macro framing, wide empty room, room-only composition, desk without characters, rose field, garden exterior, full-body wide shot, back view only, lowres, blurry, watermark, text artifacts, logo, deformed hands, extra fingers, duplicate face, melted fabric, noisy skin, oversaturated neon, cartoonish proportions, anime style"
     }
   },
   "3": {
@@ -53,8 +53,8 @@
         0
       ],
       "seed": 42000707,
-      "steps": 20,
-      "cfg": 6.0,
+      "steps": 24,
+      "cfg": 7.0,
       "sampler_name": "euler",
       "scheduler": "normal",
       "denoise": 1

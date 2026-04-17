@@ -92,12 +92,22 @@ def scene_context_for_panel(panel: str) -> str:
     return "cinematic story frame with environment continuity"
 
 
+def p17_style_anchor() -> str:
+    return (
+        "match visual language of approved P17 still: intimate eye-level tension, "
+        "warm-but-uneasy amber practical lighting, shallow-to-medium depth of field, "
+        "grounded retro-futurist realism, restrained palette, painterly photoreal texture, "
+        "subtle film grain"
+    )
+
+
 def build_prompt(panel: str, video_note: str, emotion: str) -> str:
     beat = video_note.strip().lower() if video_note.strip() else "cinematic still scene"
     emo = emotion.replace("_", " ").strip().lower() if emotion.strip() else "emotional tension"
     scene = scene_context_for_panel(panel)
+    style = p17_style_anchor()
     return (
-        f"{beat}, emotional beat {emo}, {scene}, "
+        f"{beat}, emotional beat {emo}, {scene}, {style}, "
         "warm-but-uneasy cinematic lighting, emotional sci-fi fairy tale, "
         "painterly photoreal style, 2.39:1"
     )
