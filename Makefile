@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17 comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
 
 help:
 	@echo "Supertoys production helpers"
@@ -28,7 +28,9 @@ help:
 	@echo "  make plan-8week    - Print 8-week production plan"
 	@echo "  make comfy-bootstrap - Clone/install local ComfyUI (venv + requirements)"
 	@echo "  make comfy-run-cpu-strong - Start ComfyUI API with strong CPU profile"
-	@echo "  make comfy-p17    - Submit P17 still workflow to local ComfyUI API"
+	@echo "  make comfy-p17-fast - Submit low-cost P17 preview workflow"
+	@echo "  make comfy-p17-hq - Submit high-quality P17 workflow"
+	@echo "  make comfy-p17    - Alias for comfy-p17-hq"
 	@echo "  make init         - Create production folders"
 	@echo "  make check-tools  - Verify required CLI tools are installed"
 	@echo "  make review       - Encode a fast review MP4 from MASTER_MOV"
@@ -77,6 +79,12 @@ comfy-run-cpu-strong:
 	@./scripts/run_comfy_cpu_strong.sh
 
 comfy-p17:
+	@$(MAKE) comfy-p17-hq
+
+comfy-p17-fast:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p17-emotional-still-fast.json http://127.0.0.1:8188/prompt
+
+comfy-p17-hq:
 	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p17-emotional-still.json http://127.0.0.1:8188/prompt
 
 init:

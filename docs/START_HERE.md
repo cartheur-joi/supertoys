@@ -62,6 +62,7 @@ make submission-package
 
 - 8-week plan: `docs/PRODUCTION_PLAN_8WEEKS.md`
 - Project map: `docs/PROJECT_INDEX.md`
+- ComfyUI spend control: `docs/COMFYUI_COST_CONTROL_RUNBOOK.md`
 
 ## 6) Resume On Another Computer (Agent Prompt)
 
