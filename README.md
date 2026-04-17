@@ -68,3 +68,7 @@ make watch-master
 
 `Use story/workboard.md as master; run sync/watch; bootstrap ComfyUI; generate P17 still via make comfy-p17; update lookdev tracker; initialize submission package/tracker; report blockers.`
 
+### Errata
+
+Model file [here](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors).
+
