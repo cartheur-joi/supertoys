@@ -12,7 +12,7 @@ FINAL_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_final.mp4
 REVIEW_MP4 ?= $(EXPORTS_DIR)/$(PROJECT)_review.mp4
 MIX_WAV ?= $(MIX_DIR)/$(PROJECT)_mix_v01.wav
 
-.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init script-stills-sync comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-p07 comfy-p07-fast comfy-p07-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
+.PHONY: help init check-tools review final audio-check status clean-review package onboard sync-master watch-master lookdev-init script-stills-sync comfy-bootstrap comfy-p17 comfy-p17-fast comfy-p17-hq comfy-p07 comfy-p07-fast comfy-p07-hq comfy-p25 comfy-p25-fast comfy-p25-hq comfy-run-cpu-strong submission-init submission-check submission-package plan-8week
 
 help:
 	@echo "Supertoys production helpers"
@@ -35,6 +35,9 @@ help:
 	@echo "  make comfy-p07-fast - Submit low-cost P07 preview workflow"
 	@echo "  make comfy-p07-hq - Submit high-quality P07 workflow"
 	@echo "  make comfy-p07    - Alias for comfy-p07-hq"
+	@echo "  make comfy-p25-fast - Submit low-cost P25 preview workflow"
+	@echo "  make comfy-p25-hq - Submit high-quality P25 workflow"
+	@echo "  make comfy-p25    - Alias for comfy-p25-hq"
 	@echo "  make init         - Create production folders"
 	@echo "  make check-tools  - Verify required CLI tools are installed"
 	@echo "  make review       - Encode a fast review MP4 from MASTER_MOV"
@@ -102,6 +105,15 @@ comfy-p07-fast:
 
 comfy-p07-hq:
 	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p07-support-still.json http://127.0.0.1:8188/prompt
+
+comfy-p25:
+	@$(MAKE) comfy-p25-hq
+
+comfy-p25-fast:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p25-separation-still-fast.json http://127.0.0.1:8188/prompt
+
+comfy-p25-hq:
+	@./scripts/run_comfy_workflow.sh tools/comfy-workflows/p25-separation-still.json http://127.0.0.1:8188/prompt
 
 init:
 	@./scripts/init_production.sh

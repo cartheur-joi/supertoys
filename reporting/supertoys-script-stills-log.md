@@ -2,7 +2,7 @@
 
 Living output file to track script beats and selected stills as we generate panels.
 
-> Last synced: 2026-04-17 19:43
+> Last synced: 2026-04-17 19:50
 
 ## Script Sources
 
@@ -23,7 +23,7 @@ Living output file to track script beats and selected stills as we generate pane
 | P31 | 00:02:48-00:02:55 | Hand clasp chest light steady | `TBD` | pending |   |
 | P32 | 00:02:55-00:03:00 | Night nursery final tableau | `TBD` | pending |   |
 | P01 | 00:00:00-00:00:04 | Wide aerial garden reveal | `TBD` | pending |   |
-| P07 | 00:00:25-00:00:30 | Henry paw on letter | `TBD` | pending |   |
+| P07 | 00:00:25-00:00:30 | Henry paw on letter | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p07-support-still-fast`; seed `42000707`; candidate `P07_fast_00001_.png`; Fast preview candidate copied to production/selects/P07/P07_candidate_fast_00001.png |
 | P19 | 00:01:27-00:01:33 | Drawer reveal letters | `TBD` | pending |   |
 | P23 | 00:01:51-00:01:58 | Ministry notice insert | `TBD` | pending |   |
 
