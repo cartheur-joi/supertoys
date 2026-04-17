@@ -2,7 +2,7 @@
 
 Living output file to track script beats and selected stills as we generate panels.
 
-> Last synced: 2026-04-17 19:50
+> Last synced: 2026-04-17 19:55
 
 ## Script Sources
 
@@ -16,7 +16,7 @@ Living output file to track script beats and selected stills as we generate pane
 |---|---|---|---|---|---|
 | P17 | 00:01:15-00:01:22 | Monica interrogates Henry | `production/selects/P17/P17_select.png` | selected | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p17-emotional-still`; seed `42001717`; candidate `P17_00001_.png`; HQ pass selected from tools/ComfyUI/output/supertoys |
 | P20 | 00:01:33-00:01:40 | Monica breakdown high angle | `TBD` | pending |   |
-| P25 | 00:02:05-00:02:12 | Window inside-outside split | `TBD` | pending |   |
+| P25 | 00:02:05-00:02:12 | Window inside-outside split | `TBD` | pending | tool `ComfyUI`; model `sd_xl_base_1.0.safetensors`; prompt `p25-separation-still-fast`; seed `42002525`; candidate `P25_fast_00001_.png`; Fast preview candidate copied to production/selects/P25/P25_candidate_fast_00001.png |
 | P27 | 00:02:20-00:02:28 | Rose stem bends in hand | `TBD` | pending |   |
 | P28 | 00:02:28-00:02:35 | Henry shields David | `TBD` | pending |   |
 | P30 | 00:02:42-00:02:48 | Profile question closeup | `TBD` | pending |   |
